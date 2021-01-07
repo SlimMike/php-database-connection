@@ -14,3 +14,11 @@
 # Example output
 
 ![Example Output](images/local.png)
+
+# Fargate CLI results (first entry is most significant)
+## Worst case
+![Worst case](images/fargate_cli_worst_case.png)
+## Average case
+![Average case](images/fargate_cli_average_case.png)
+## Best case
+![Best case](images/fargate_cli_best_case.png)
