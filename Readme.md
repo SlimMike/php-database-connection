@@ -24,3 +24,11 @@
 ![Best case](images/dns_endpoint/best_case.png)
 
 # Fargate CLI (Private DNS) -> Similar to DNS Endpoint
+
+# Fargate CLI (Private IP) results (first entry is most significant)
+## Worst case
+![Worst case](images/private_ip/worst_case.png)
+## Average case
+![Average case](images/private_ip/average_case.png)
+## Best case
+![Best case](images/private_ip/best_case.png)
