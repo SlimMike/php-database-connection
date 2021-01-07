@@ -22,3 +22,5 @@
 ![Average case](images/dns_endpoint/average_case.png)
 ## Best case
 ![Best case](images/dns_endpoint/best_case.png)
+
+# Fargate CLI (Private DNS) -> Similar to DNS Endpoint
