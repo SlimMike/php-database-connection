@@ -1,6 +1,6 @@
 #!/usr/bin/env sh
 
-echo '== Wait a bit just in case'
+echo '== Wait a bit just in case =='
 
 sleep 5
 
@@ -11,7 +11,9 @@ do
   php once.php
 done
 
-sleep 6 # public endpoint DNS is cached for 5 or 6 seconds AFAIK
+echo '== 31 seconds of sleep to timeout DNS TTL =='
+
+sleep 31 # public endpoint DNS is cached for 5 or 6 seconds AFAIK
 
 for i in 1 2 3 4 5
 do
