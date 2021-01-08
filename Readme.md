@@ -37,3 +37,6 @@
 # Fargate CLI (DNS Endpoint) with sleep to wait out DNS cache TTL
 ## DNS TTL seems to be about 5-6 seconds, resolve time starts at about 3ms, usually under 40, in rare instances takes much longer.
 ![DNS cache](images/dns_cache/dns_ttl.png)
+
+# Extras: this doesn't make too much sense
+![Query spike](images/extras/query_spike.png)
