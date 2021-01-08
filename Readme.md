@@ -1,6 +1,7 @@
-# Copy .env.example as .env
 # There is Makefile ;)
+# Copy .env.example as .env
 # Test results available in /images
+# Configuration
 ## local -> cli and database in separate docker containers on same machine
 ## fargate -> cli running in fargate container, rds in same AZ
 ### fargate container/task:
@@ -32,3 +33,7 @@
 ![Average case](images/private_ip/average_case.png)
 ## Best case
 ![Best case](images/private_ip/best_case.png)
+
+# Fargate CLI (DNS Endpoint) with sleep to wait out DNS cache TTL
+## DNS TTL seems to be about 5-6 seconds, resolve time starts at about 3ms, usually under 40, in rare instances takes much longer.
+![DNS cache](images/dns_cache/dns_ttl.png)
