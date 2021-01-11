@@ -38,5 +38,8 @@
 ## DNS TTL seems to be about 5-6 seconds, resolve time starts at about 3ms, usually under 40, in rare instances takes much longer.
 ![DNS cache](images/dns_cache/dns_ttl.png)
 
-# Extras: this doesn't make too much sense
+# Extras
+## this doesn't make too much sense
 ![Query spike](images/extras/query_spike.png)
+## latency across subnets in same region (1a to 1b)
+![Subnet 1a to 1b](images/extras/1a_to_1b_across_subnets.png)
