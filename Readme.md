@@ -43,4 +43,5 @@
 ![Query spike](images/extras/query_spike.png)
 ## latency across subnets in same region (1a to 1b)
 ![Subnet 1a to 1b](images/extras/1a_to_1b_across_subnets.png)
-## selecting multiple subnets -> seems to be choosing a random one
+## Running tests against a cheap RDS (T3 micro)
+![Cheap RDS](images/extras/cheap_rds.png)
